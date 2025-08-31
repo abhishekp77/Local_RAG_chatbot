@@ -2,7 +2,7 @@
 # 📖 Local Gita Chatbot  
 
 An AI-powered chatbot that allows you to interact with the **Bhagavad Gita** in natural language.  
-It works completely **offline** using local embeddings and a local LLM (LLaMA 2).  
+It works completely **offline** using local embeddings and a local LLM (LLaMA 3).  
 
 You can run it in two modes:  
 - 🐍 **Python Script (CLI/Terminal)**  
@@ -104,5 +104,5 @@ pip install -r requirements.txt
 ---
 
 ## ⚠️ Note
-- The **LLaMA 2 model file** is **not included** in the repo (due to size).  
+- The **LLaMA 3 model file** is **not included** in the repo (due to size).  
 - You need to place your downloaded `.gguf` model inside the `model/` folder.  
