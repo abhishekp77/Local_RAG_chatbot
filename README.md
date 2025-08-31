@@ -1,16 +1,16 @@
 
-# 📖 Local Gita Chatbot  
+# Local Gita Chatbot  
 
 An AI-powered chatbot that allows you to interact with the **Bhagavad Gita** in natural language.  
 It works completely **offline** using local embeddings and a local LLM (LLaMA 3).  
 
 You can run it in two modes:  
-- 🐍 **Python Script (CLI/Terminal)**  
-- 🌐 **Streamlit Web App (GUI)**  
+- **Python Script (CLI/Terminal)**  
+- **Streamlit Web App (GUI)**  
 
 ---
 
-## 🚀 Features
+##  Features
 - 🔹 **Offline AI chatbot** — no API key required.  
 - 🔹 **Fast response** using FAISS vector search.  
 - 🔹 **Two modes**: script-based & web-based.  
@@ -19,28 +19,28 @@ You can run it in two modes:
 
 ---
 
-## 🛠️ Installation
+## 🛠Installation
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/your-username/local-gita-chatbot.git
 cd local-gita-chatbot
 ```
 
-### 2️⃣ Create a Conda Environment
+### 2️ Create a Conda Environment
 ```bash
 conda create -n localbot python=3.10 -y
 conda activate localbot
 ```
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 LocalBot/
 │── model/                      # LLaMA 2 model files (not included in repo)
@@ -56,9 +56,9 @@ LocalBot/
 
 ---
 
-## 💻 Usage
+##  Usage
 
-### 🐍 Run CLI Version
+###  Run CLI Version
 ```bash
 python gita_chatbot.py
 ```
@@ -71,7 +71,7 @@ python gita_chatbot.py
 
 ---
 
-### 🌐 Run Streamlit Web App
+###  Run Streamlit Web App
 ```bash
 streamlit run Gita_chatbot_gui.py
 ```
@@ -83,7 +83,7 @@ streamlit run Gita_chatbot_gui.py
 
 ---
 
-## 📦 Requirements
+##  Requirements
 - Python 3.9+  
 - Conda (recommended)  
 - Libraries: `streamlit`, `faiss-cpu`, `sentence-transformers`, `pickle`, `transformers`, `torch`  
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 - ✅ Add multi-language support (Hindi, Sanskrit, etc.).  
 - ✅ Deploy online with Streamlit Cloud.  
 - ✅ Extend chatbot to other scriptures or texts.  
@@ -103,6 +103,6 @@ pip install -r requirements.txt
 
 ---
 
-## ⚠️ Note
+## ⚠ Note
 - The **LLaMA 3 model file** is **not included** in the repo (due to size).  
 - You need to place your downloaded `.gguf` model inside the `model/` folder.  
